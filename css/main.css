@@ -1,0 +1,64 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background: #444;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+.quitar-float{
+    float: none;
+}
+.permanent-marker{
+    font-family: 'Permanent Marker', cursive;
+}
+.se-gris{
+    background-color: #eee;
+}
+.vete-arriba{
+    vertical-align: top;
+}
+.mediano{
+    font-size: 1.5em;
+}
+.grande{
+    font-size: 4em;
+}
+.padding-largo{
+    padding: 5px 10px;
+}
+.inline-block{
+    float: none;
+    display: inline-block;
+    margin-right: -4px;
+}
+.no-lista li{
+    list-style-type: none;
+}
+a,.rojo{
+    color: #aa010a;
+}
+h1{
+    color: #fff;
+    text-align: center;
+}
+.galeria{
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.galeria li{
+    margin: 5px;
+}
+.galeria img{
+    width: 150px;
+    height: 100px;
+}
+
+
